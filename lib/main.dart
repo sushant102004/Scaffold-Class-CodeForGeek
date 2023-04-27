@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
               ListTile(leading: Icon(Icons.home), title: Text('Home')),
               ListTile(leading: Icon(Icons.chat), title: Text('Chat')),
               ListTile(leading: Icon(Icons.person), title: Text('Profile')),
-
             ],
           ),
         ),
@@ -30,13 +29,13 @@ class MyApp extends StatelessWidget {
             onPressed: () {}, child: const Icon(Icons.add)),
 
         // /////////////////
-        bottomNavigationBar: BottomNavigationBar(
-          items: const [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-            BottomNavigationBarItem(icon: Icon(Icons.chat), label: 'Chat'),
-            BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
-          ],
-        ),
+        // bottomNavigationBar: BottomNavigationBar(
+        //   items: const [
+        //     BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+        //     BottomNavigationBarItem(icon: Icon(Icons.chat), label: 'Chat'),
+        //     BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
+        //   ],
+        // ),
       ),
     );
   }
